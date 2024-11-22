@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300;
+}
+
+p{
+  cursor: default;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: grid;
+  place-items: center;
+}

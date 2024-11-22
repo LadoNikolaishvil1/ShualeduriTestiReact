@@ -1,0 +1,35 @@
+.imgHolder{
+    border: 2px solid transparent;
+    width: 88px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.imgHolder:hover{
+    opacity: .5;
+}
+
+.whiteScreen{
+    position: absolute;
+    border-radius: 7px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease background;
+}
+
+.MarkettingImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+#img1, #img2, #img3, #img4{
+    border: 2px solid #FF7E1B;
+}
+
+#img1 .whiteScreen, #img2 .whiteScreen, #img3 .whiteScreen, #img4 .whiteScreen{
+    z-index: 3;
+    background: #FFFFFFBF 75%;
+}
